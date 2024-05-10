@@ -12,6 +12,7 @@
     width:100%;
     height: 100%;
     opacity: 0.2;
+    max-width: 1440px;
 }
 .banner{
     position: relative;
@@ -52,3 +53,39 @@
     border: 2px solid #1eb11e;
 }
 /* banner section end  */
+
+/* about section start */
+.about-container{
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 50px 100px;
+}
+.about{
+    display: flex;
+    gap:20px;
+    place-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 2px solid white;
+    
+}
+.about-text{
+    font-size:14px;
+}
+.about i{
+    font-size: 40px;
+    /* color:#1eb11e; */
+}
+.vline{
+    border-right: 2px solid #1eb11e;
+    height: 30px;
+}
+.about:hover {
+    background-color: #1eb11e;
+    color:white;
+} 
+
+
+/* about section end */
