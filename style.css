@@ -68,8 +68,6 @@
     place-items: center;
     justify-content: space-between;
     padding: 20px;
-    border-bottom: 2px solid white;
-    
 }
 .about-text{
     font-size:14px;
@@ -130,3 +128,24 @@
 }
 
 /* service section end */
+
+/* new project section start */
+.newProject{
+    max-width: 1440px;
+    display: flex;
+    place-items: center;
+    justify-content: space-around;
+    padding:50px 100px;
+    gap: 50px;
+}
+.projectText, .projectImg{
+    flex-basis: 50%;
+}
+
+.projectText h3{
+    font-size: 45px;
+}
+.projectImg img{
+    width: 100%;
+}
+/* new project section end */
