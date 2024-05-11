@@ -114,6 +114,7 @@
 .service p{
     margin: 10px 0px;
     text-align: justify;
+    color:gray;
 }
 .readMore{
     border: 0;
@@ -149,3 +150,32 @@
     width: 100%;
 }
 /* new project section end */
+
+/* provide section start */
+.provide-container{
+    max-width: 1440px;
+    margin: auto;
+    padding:50px 100px;
+    display:flex;
+    place-items: center;
+    gap:50px;
+}
+
+.provideText h3{
+    font-size: 50px;
+    padding-bottom: 15px;
+}
+.provideText h4{
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+.provideText p{
+    font-size:18px;
+    padding-bottom: 5px;
+    color: gray;
+}
+.provideServices{
+    display: flex;
+    gap:50px;
+}
+/* provide section end */
