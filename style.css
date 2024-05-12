@@ -11,7 +11,7 @@
     position: absolute;
     width:100%;
     height: 100%;
-    opacity: 0.2;
+    opacity: 0.1;
     max-width: 1440px;
 }
 .banner{
@@ -179,3 +179,54 @@
     gap:50px;
 }
 /* provide section end */
+
+/* details section start */
+.details-container{
+    max-width: 1440px;
+    margin: auto;
+    padding:50px 100px;
+    display: flex;
+    gap:100px;
+    place-items: center;
+    justify-content: space-around;
+}
+.detailsBackground{
+    flex-basis: 50%;
+    background-image: url(./images/workers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height:100%;
+    position:relative;
+    z-index: -2;
+}
+.detailsBg{
+    background-color: white;
+    width:100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.8;
+}
+.detailsText{
+    flex-basis: 50%;
+}
+.detailsText h3{
+    font-size: 40px;
+}
+.detailsText p{
+    color:gray;
+    word-spacing: 2px;
+}
+.detailsInfo{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    text-align: center;
+    padding: 200px 50px;
+}
+.detailsInfo h3{
+    font-size: 36px;
+    color: #1eb11e;
+}
+/* details section end */
