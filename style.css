@@ -237,22 +237,37 @@
     text-align: center;
     padding:50px 100px;
 }
-
+.review-container h2{
+    font-size: 40px;
+}
+.review-container>p{
+    font-size: 18px;
+    color:grey;
+}
 .reviews{
     display: flex;
     gap:50px;
 }
+
 .review{
     box-shadow: 5px 5px 8px 5px gray;
     padding:20px;
     margin-top: 50px;
+    opacity: 0.5;
+}
+.review:hover{
+    opacity: 1;
+    transform: scale(1.1);
 }
 .reviewDetails{
     display: flex;
     gap: 20px;
-    padding:50px 0px 10px;
+    padding:10px 0px 10px;
     place-items: center;
+    text-align: left;
+    
 }
+
 
 .reviewDetails img{
     width: 100px;
