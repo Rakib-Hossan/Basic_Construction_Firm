@@ -230,3 +230,37 @@
     color: #1eb11e;
 }
 /* details section end */
+
+/* reviews section start */
+.review-container{
+    max-width: 1440px;
+    text-align: center;
+    padding:50px 100px;
+}
+
+.reviews{
+    display: flex;
+    gap:50px;
+}
+.review{
+    box-shadow: 5px 5px 8px 5px gray;
+    padding:20px;
+    margin-top: 50px;
+}
+.reviewDetails{
+    display: flex;
+    gap: 20px;
+    padding:50px 0px 10px;
+    place-items: center;
+}
+
+.reviewDetails img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.reviewDetails span{
+    font-weight: bold;
+}
+/* reviews section end */
