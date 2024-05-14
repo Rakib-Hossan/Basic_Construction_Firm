@@ -1,0 +1,85 @@
+@media screen and (max-width:575px){
+    /* banner section */
+    .banner{
+        flex-direction: column;
+        padding: 50px;
+    }
+    .banner-text,.banner-img{
+        flex-basis: 100%;
+    }
+    .banner-text h1{
+        font-size: 40px;
+    }
+    /* banner section */
+
+    /* about section */
+    .about-container{
+        flex-direction: column;
+        padding:50px;
+    }
+
+    .about{
+        flex-direction: column;
+    }
+
+    .vline{
+        display: none;
+    }
+    /* about section */
+
+    /* service section */
+    .services{
+        flex-direction: column;
+        padding:50px;
+    }
+    /* service section */
+
+    /* new project section */
+    .newProject{
+        flex-direction: column;
+        padding:50px;
+    }
+    .projectText h3{
+        font-size: 30px;
+    }
+    /* new project section */
+
+    /* provide section */
+    .provide-container{
+        flex-direction: column;
+        padding: 50px;
+    }
+
+    .provideText h3{
+        font-size: 30px;
+    }
+    .provideText h4{
+        font-size: 25px;
+    }
+    .provideServices{
+        flex-direction: column;
+        gap:0px;
+    }
+    .provideImg img{
+        width:100%;
+    }
+    /* provide section */
+
+    /* company details section */
+    .details-container{
+        flex-direction: column;
+        padding: 50px;
+        gap:20px;
+    }
+    .detailsInfo{
+        flex-direction: column;
+    }
+    /* company details section */
+}
+
+@media screen and (min-width:576px) and (max-width:767px){}
+
+@media screen and (min-width:768px) and (max-width:991px){}
+
+@media screen and (min-width:992px) and (max-width:1200px){}
+
