@@ -229,6 +229,10 @@
     font-size: 36px;
     color: #1eb11e;
 }
+.detailsInfo p{
+    font-weight: bold;
+    color:#605e5e;
+}
 /* details section end */
 
 /* reviews section start */
@@ -250,10 +254,10 @@
 }
 
 .review{
-    box-shadow: 5px 5px 8px 5px gray;
+    box-shadow: 2px 2px 2px 3px gray;
     padding:20px;
     margin-top: 50px;
-    opacity: 0.5;
+    opacity: 0.8;
 }
 .review:hover{
     opacity: 1;
@@ -265,7 +269,6 @@
     padding:10px 0px 10px;
     place-items: center;
     text-align: left;
-    
 }
 
 
@@ -279,3 +282,66 @@
     font-weight: bold;
 }
 /* reviews section end */
+
+/* footer section start*/
+.footer-container{
+    background-color:#04f90c1b;
+}
+.footer{
+    max-width: 1440px;
+    margin: auto;
+    padding: 50px 100px;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+}
+.footerHead{
+    font-size: 20px;
+    color:#434343;
+    margin-bottom: 20px;
+}
+.socialMedia{
+    display: flex;
+    gap:20px;
+}
+.fb, .twitter,.google{
+    color:white;
+    padding:20px;
+    place-items: center;
+    text-align: center;
+}
+
+.fb i,.twitter i,.google i{
+    border-radius: 50%;
+    font-size: 25px;
+}
+.fb p, .twitter p, .google p{
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.fb{
+    background-color: #1c68c4b5;
+}
+.fb i{
+    background-color: #3087f0ae;
+    padding: 20px 25px;
+}
+
+.twitter{
+    background-color: #44dbeed2;
+}
+.twitter i{
+    background-color: #3fcce5d9;
+    padding: 20px;
+}
+
+.google{
+    background-color: #f35f32c5;
+}
+.google i{
+    background-color: #f55c3acb;
+    padding: 20px 18px;
+}
+
+/* footer section end */
