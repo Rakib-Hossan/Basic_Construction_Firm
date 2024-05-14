@@ -56,6 +56,9 @@
     .provideText h4{
         font-size: 25px;
     }
+    .provideText p{
+        font-size:16px;
+    }
     .provideServices{
         flex-direction: column;
         gap:0px;
@@ -74,7 +77,62 @@
     .detailsInfo{
         flex-direction: column;
     }
+    .detailsText h3{
+        font-size: 30px;
+    }
+    .detailsInfo{
+        flex-direction: row;
+        gap: 20px;
+        padding: 50px;
+        justify-content: center;
+    }
+    .detailsInfo h3{
+        font-size: 25px;
+    }
     /* company details section */
+
+    /* review section */
+    .review-container{
+        padding:50px;
+    }
+    .review-container h2{
+        font-size: 30px;
+    }
+    .reviews{
+        flex-direction: column;
+        gap:20px;
+    }
+    .review{
+        margin-top: 20px;
+    }
+    /* review section */
+
+    /* footer section */
+    .footer{
+        flex-direction: column;
+        padding: 50px;
+        /* gap: 50px; */
+    }
+    .socialMedia{
+        justify-content: center;
+    }
+    .fb, .twitter,.google{
+        padding:10px;
+    }
+    .fb i,.twitter i,.google i{
+        border-radius: 50%;
+        font-size: 18px;
+    }
+    .fb p, .twitter p, .google p{
+        font-size: 14px;
+    }
+    .emailContact input{
+        width: 60%;
+    }
+    .footerText{
+        font-size: 14px;
+    }
+    /* footer section */
 }
 
 @media screen and (min-width:576px) and (max-width:767px){}
