@@ -344,4 +344,26 @@
     padding: 20px 18px;
 }
 
+.emailContact p{
+    font-size: 18px;
+    margin: 20px 0px;
+}
+
+.emailContact input{
+    padding: 15px 25px;
+    width: 80%;
+    background-color: #f8f6f6;
+    border: 0;
+}
+.emailContact button{
+    padding:15px;
+    border:0;
+    background-color: #1eb11e;
+    color:white
+}
+.footerText{
+    text-align: center;
+    padding: 10px;
+    color:#434343;
+}
 /* footer section end */
