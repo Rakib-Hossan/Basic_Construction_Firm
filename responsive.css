@@ -275,7 +275,138 @@
 }
 
 
-@media screen and (min-width:768px) and (max-width:991px){}
+@media screen and (min-width:768px) and (max-width:991px){
+  /* banner section */
+  .banner{
+    padding: 50px;
+}
+.banner-text,.banner-img{
+    flex-basis: 100%;
+}
+.banner-text h1{
+    font-size: 40px;
+}
+/* banner section */
+
+/* about section */
+.about-container{
+    padding:50px;
+    flex-wrap: wrap;
+}
+
+.about{
+    justify-content: flex-start;
+    flex-basis: 40%;
+}
+
+.vline{
+    display: none;
+}
+/* about section */
+
+/* service section */
+.services{
+    flex-wrap: wrap;
+    padding:30px;
+    justify-content: center;
+}
+/* service section */
+
+/* new project section */
+.newProject{
+    padding:50px;
+}
+.projectText h3{
+    font-size: 30px;
+}
+/* new project section */
+
+/* provide section */
+.provide-container{
+    padding: 50px;
+}
+
+.provideText h3{
+    font-size: 25px;
+}
+.provideText h4{
+    font-size: 20px;
+}
+.provideText p{
+    font-size:14px;
+}
+.provideServices{
+    flex-direction: column;
+    gap:0px;
+}
+.provideImg img{
+    width:100%;
+}
+/* provide section */
+
+/* company details section */
+.details-container{
+    padding: 50px;
+    gap:20px;
+}
+.detailsInfo{
+    flex-direction: column;
+}
+.detailsText h3{
+    font-size: 30px;
+}
+.detailsInfo{
+    flex-direction: row;
+    gap: 20px;
+    padding: 50px;
+    justify-content: center;
+}
+.detailsInfo h3{
+    font-size: 25px;
+}
+/* company details section */
+
+/* review section */
+.review-container{
+    padding:50px;
+}
+.review-container h2{
+    font-size: 30px;
+}
+.reviews{
+    gap:20px;
+}
+.review{
+    margin-top: 20px;
+}
+/* review section */
+
+/* footer section */
+.footer{
+    padding: 50px;
+    /* gap: 50px; */
+}
+.socialMedia{
+    justify-content: center;
+}
+.fb, .twitter,.google{
+    padding:10px;
+}
+.fb i,.twitter i,.google i{
+    border-radius: 50%;
+    font-size: 18px;
+}
+.fb p, .twitter p, .google p{
+    font-size: 14px;
+}
+.emailContact input{
+    width: 60%;
+}
+.footerText{
+    font-size: 14px;
+}
+/* footer section */  
+}
 
 @media screen and (min-width:992px) and (max-width:1200px){}
 
